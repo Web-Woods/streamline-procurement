@@ -1,4 +1,4 @@
-import WidgetCollection from "@/components/budgetSummary/widgetCollection";
+// import WidgetCollection from "@/components/budgetSummary/widgetCollection";
 import SummaryStatWidget from "@/components/donutchart/summaryStatWidget";
 import StatusModal from "@/components/formStatusModal/statusModal";
 import UpdatePurchase from "@/components/formsModal/updatePurchase";
@@ -81,7 +81,7 @@ export default function DashboardPage() {
 				<UpdateQuotation />
 				<UpdateRequest />
 			</div> */}
-      <WidgetCollection />
+      {/* <WidgetCollection /> */}
       <div className="container mx-auto max-w-screen-lg py-5">
         <p className="text-3xl font-bold text-gray-800 py-5 dark:text-white">Recent Activity</p>
         {recentsData.map((data) => (
